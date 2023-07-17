@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lily+Script+One&display=swap');
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lily Script One', cursiva;
+    
+ }   
+header{
+  
+    background: rgba(30, 30, 30, 1);
+    color: white;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    height: 18vh;
+    padding: 40px;
+}
+.imgheader{
+    width: 100vw;
+    
+}
+.imagem figure{
+    display: flex;
+    justify-content: space-around;
+     margin: 20px;
+ 
+}
+footer{
+    height: 20vh;
+    display: flex;
+    text-align: center;
+    background:  rgba(30, 30, 30, 1) ;
+    color: white;
+}
+footer p{
+    font-size: 17px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+footer figure{
+    padding-top: 30px;
+    display: flex;
+    width: 20vw;
+    height: 12vh;
+    justify-content: right;
+    position: relative;
+    left: 45px;
+    justify-content: space-evenly;
+    
+
+}
